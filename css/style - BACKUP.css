@@ -1,0 +1,258 @@
+.carousel-item {
+  height: auto;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#whythegrass {
+  text-align: center;
+}
+
+.borderwhite {
+  border-width: 5px;
+  border-color: white;
+}  
+
+/* Website Color Themes */
+/* Main Color */
+.main-f-color {
+  color: rgb(255, 200, 255);
+  transition: 0.4s;
+}
+/* Color when hovering by the mouse pointer */
+.main-f-color:hover {
+  box-shadow: 0 0 7px 2px rgb(255, 140, 255);   
+  color: rgb(255, 140, 255);   
+  transition: 0.5s; 
+}
+
+  /* Every TAG into Html files that uses this class, will
+  get a gray color */
+
+.textgray {
+  color: gray;
+}
+
+  /* Every TAG into Html files that uses this class, will
+  get a black color */
+
+.textblack {
+  color: black;
+}
+
+  /* Every TAG into Html files that uses this class, will
+  get a black color */
+
+  .textwhite {
+    color: white;
+  }
+
+  /* Every TAG into Html files that uses this class, will
+  get a gray background color */
+
+.backgray {
+  background-color: rgb(255, 245, 255);
+}
+
+section div {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* testimonials */
+
+
+#testimonials {
+  padding: 1% 15%;
+  text-align: center;
+  color: #FFE8FF;
+}
+
+.testemonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* 
+#serverfeatures {
+  text-align: left;
+}
+*/
+
+/* Server features blocks */
+
+.featureboxes {
+  border: 0px solid white;
+  transition: 0.15s;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.featureboxes:hover {
+  transition: 0.15s;
+  transform: scale(1.01); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border-radius: 3px;
+  text-align: center;
+}
+
+/* The following class resizes the images for features */
+.img-featureboxes {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+/* For the Player count */
+.playercount {
+  display: inline-block;
+}
+
+/* For the News. Should have a predetermined size */
+.img-news {
+  max-width: 700px;
+  max-height: 350px;
+}
+
+/* For footer Medias */
+
+.medias {
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+}
+
+.medias:hover 
+{
+   color: #FFE8FF;
+   text-decoration: none; 
+   cursor: pointer;  
+}
+
+.card-img-top {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  padding-top: 1rem;
+}
+
+.titlecolormain {
+  color: #FFE8FF;
+}
+
+
+.notborder-success {
+  box-shadow: 0 0 5px 2px rgb(255, 140, 255);   
+  color: rgb(0, 0, 0);   
+  transition: 0.5s; 
+  background-color: rgb(255, 245, 255);
+}
+.notborder-successs {
+  animation: waggle 1.3s 2s forwards ease-out;
+  box-shadow: 0 0 5px 3px rgb(255, 140, 255);   
+  color: rgb(255, 100, 255);   
+  background-color: rgb(255, 245, 255);
+  font-size: 20px;
+  max-width: 800px;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+@keyframes blinkingText{
+    0%{ color: transparent; }
+    3%{ color: transparent; }
+    100%{ color: rgb(255, 140, 255); }
+}
+
+@keyframes waggle {
+  25% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(-12deg) scale(1.7);
+  }
+  60% {
+    transform: rotateZ(10deg) scale(1.7);
+  }
+  67.5% {
+    transform: rotateZ(-8deg) scale(1.7);
+  }
+  75% {
+    transform: rotateZ(6deg) scale(1.7);
+  }
+  82.5% {
+    transform: rotateZ(-4deg) scale(1.7);
+  }
+  85% {
+    transform: rotateZ(0) scale(1.7);
+  }
+  100% {
+    transform: rotateZ(0) scale(1);
+  }
+}
+
+  .jordad {
+    color: #ffe5ff;
+    font-size: 20px;
+  }
+  .jordad2:hover {
+    color: #ffa9ff;
+    text-decoration: none;
+  }
+  .a {
+    color: #ffa9ff;
+    text-decoration: none;
+  }
+  .jordad4 {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .2rem;
+  }
+  .jordad5:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 20px 2px rgb(255, 140, 255);
+  }
+  .card-header1 {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff9ff; 
+    border-bottom: 1px solid;
+    rgb(255,225,255);
+  }
+
+  .btn1 {
+    color: #ffa5ff;
+    transition: none;
+  }
+  .jordad6:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-radius: 5px;
+    box-shadow: 0 0 20px 2px rgb(255, 140, 255);
+  }
+  .jordad7 {
+    color: #ffe5ff;
+  }

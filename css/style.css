@@ -1,0 +1,395 @@
+.carousel-item {
+  height: auto;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#whythegrass {
+  text-align: center;
+}
+
+.borderwhite {
+  border-width: 5px;
+  border-color: white;
+}  
+
+/* Website Color Themes */
+/* Main Color */
+.main-f-color {
+  color: rgb(0, 153, 201);
+  transition: 0.4s;
+}
+/* Color when hovering by the mouse pointer */
+.main-f-color:hover {
+  box-shadow: 0 0 7px 2px rgb(0, 123, 201);   
+  color: rgb(0, 123, 201);   
+  transition: 0.5s; 
+}
+
+  /* Every TAG into Html files that uses this class, will
+  get a gray color */
+
+.textgray {
+  color: gray;
+}
+
+  /* Every TAG into Html files that uses this class, will
+  get a black color */
+
+.textblack {
+  color: black;
+}
+
+  /* Every TAG into Html files that uses this class, will
+  get a black color */
+
+  .textwhite {
+    color: white;
+  }
+
+  /* Every TAG into Html files that uses this class, will
+  get a gray background color */
+
+.backgray {
+  background-color: rgb(217, 246, 255);
+}
+
+section div {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+/* testimonials */
+
+
+#testimonials {
+  padding: 1% 15%;
+  text-align: center;
+  color: #00C2FF;
+}
+
+.testemonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* 
+#serverfeatures {
+  text-align: left;
+}
+*/
+
+/* Server features blocks */
+
+.featureboxes {
+  border: 0px solid white;
+  transition: 0.15s;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.featureboxes:hover {
+  transition: 0.15s;
+  transform: scale(1.01); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border-radius: 3px;
+  text-align: center;
+}
+
+/* The following class resizes the images for features */
+.img-featureboxes {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+/* For the Player count */
+.playercount {
+  display: inline-block;
+}
+
+/* For the News. Should have a predetermined size */
+.img-news {
+  max-width: 700px;
+  max-height: 350px;
+}
+
+/* For footer Medias */
+
+.medias {
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+}
+
+.medias:hover 
+{
+   color: #00C2FF;
+   text-decoration: none; 
+   cursor: pointer;  
+}
+
+.card-img-top {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  padding-top: 1rem;
+}
+
+.titlecolormain {
+  color: #00C2FF;
+}
+
+
+.notborder-success {
+  box-shadow: 0 0 5px 2px rgb(0, 153, 201);   
+  color: rgb(0, 0, 0);   
+  transition: 0.5s; 
+  background-color: rgb(217, 246, 255);
+}
+.notborder-successs {
+  animation: waggle 1.3s 2s forwards ease-out;
+  box-shadow: 0 0 5px 3px rgb(0, 153, 201);   
+  color: rgb(0, 123, 201);   
+  background-color: rgb(217, 246, 255);
+  font-size: 20px;
+  max-width: 800px;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.asdf {
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(140, 228, 255));
+  filter: drop-shadow(0px 0px 20px rgba(140, 228, 255));
+}
+
+@keyframes blinkingText{
+    0%{ color: transparent; }
+    3%{ color: transparent; }
+    100%{ color: rgb(0, 153, 201); }
+}
+
+@keyframes waggle {
+  25% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(-12deg) scale(1.7);
+  }
+  60% {
+    transform: rotateZ(10deg) scale(1.7);
+  }
+  67.5% {
+    transform: rotateZ(-8deg) scale(1.7);
+  }
+  75% {
+    transform: rotateZ(6deg) scale(1.7);
+  }
+  82.5% {
+    transform: rotateZ(-4deg) scale(1.7);
+  }
+  85% {
+    transform: rotateZ(0) scale(1.7);
+  }
+  100% {
+    transform: rotateZ(0) scale(1);
+  }
+}
+
+  .jordad {
+    color: #00C2FF;
+    font-size: 20px;
+  }
+  .jordad2:hover {
+    color: #0099c9;
+    text-decoration: none;
+  }
+  .a {
+    color: #0099c9;
+    text-decoration: none;
+  }
+  .jordad4 {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .2rem;
+  }
+  .jordad5:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 20px 2px rgb(0, 153, 201);
+  }
+  .card-header1 {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #D9F6FF; 
+    border-bottom: 1px solid;
+    rgb(0, 153, 201);
+  }
+
+  .btn1 {
+    color: #0099c9;
+    transition: none;
+  }
+  .jordad6:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-radius: 5px;
+    box-shadow: 0 0 20px 2px rgb(0, 153, 201);
+  }
+  .jordad7 {
+    color: #00C2FF;
+  }
+
+.logo {
+text-indent: 250px;
+max-width:40%;
+  display: block;
+  margin: 0 auto;
+  transition: none;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  background-repeat: no-repeat;
+	-webkit-animation-name: logo;
+	        animation-name: logo;
+	-webkit-animation-duration: .7s;
+	        animation-duration: .7s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.container2 {
+    width: 200%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+@keyframes logo {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: rotateZ(-12deg) scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.07);
+		        transform: rotateZ(-12deg) scale(1.07);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: rotateZ(-12deg) scale(1);
+	}
+}
+.carousel-caption1 {
+    color: 
+    #fff;
+    text-align: center;
+    padding-top 10px;
+e: url('https://i.imgur.com/enIU33W.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+	-webkit-animation-name: logo2;
+	        animation-name: logo2;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+}
+
+.logo3 {
+  width: 100%;
+  height: 100px;
+  background-image: url('https://i.imgur.com/enIU33W.png');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+	-webkit-animation-name: logo2;
+	        animation-name: logo2;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+}
+.logo4 {
+  width: 100px;
+  height: 100px;
+  background-image: url('https://i.imgur.com/uYMeYos.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.logo5 {
+  display: block;
+  margin: 0 auto;
+  transition: none;
+min-height: 550px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  background-repeat: no-repeat;
+	-webkit-animation-name: logo2;
+	        animation-name: logo2;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+}
+
+@keyframes logo2 {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.1);
+		        transform: scale(1.07);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+
